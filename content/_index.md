@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My Gallery Portfolio"
+title: Mantas
 ---
 
-Welcome to my gallery portfolio. This site showcases my work and projects.
+I make hard things look easy.

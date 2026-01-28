@@ -1,11 +1,38 @@
-baseURL = "https://example.com/"
+baseURL = "https://Mantexas.github.io/"
 languageCode = "en-us"
-title = "Gallery Portfolio"
+title = "Mantas"
 theme = "gallery"
 
 [params]
-  description = "My gallery portfolio"
-  author = "Your Name"
+  description = "I make hard things look easy. Technical depth meets human understanding."
+  author = "Mantas Zdancius"
+  location = "London"
+
+  # Social Links
+  [[params.social]]
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/finetune/"
+
+  [[params.social]]
+    name = "Instagram"
+    url = "https://instagram.com/mantas.tv"
+
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/Mantexas"
+
+  [[params.social]]
+    name = "Email"
+    url = "mailto:mantas.zdancius@me.com"
+
+  # Color Theme
+  [params.colors]
+    primary = "#a4b8a0"  # Pastel matcha green
+    accent = "#d4c5b0"   # Warm beige
+    dark = true          # Dark mode default
+
+  # Custom CSS
+  customCSS = ["custom.css"]
 
 [outputs]
   home = ["HTML"]

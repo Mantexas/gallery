@@ -1,0 +1,53 @@
+/* Mantas Portfolio - Custom Color Theme */
+
+:root {
+  --color-primary: #a4b8a0;    /* Pastel matcha green */
+  --color-accent: #d4c5b0;     /* Warm beige */
+  --color-dark-bg: #0f0f0f;    /* Near black background */
+  --color-dark-text: #f5f5f5;  /* Off white text */
+}
+
+/* Dark Mode (Default) */
+body {
+  background-color: var(--color-dark-bg);
+  color: var(--color-dark-text);
+}
+
+/* Links and interactive elements */
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+/* Accent elements */
+.accent,
+button,
+input[type="submit"] {
+  background-color: var(--color-primary);
+  color: var(--color-dark-bg);
+}
+
+.accent:hover,
+button:hover,
+input[type="submit"]:hover {
+  background-color: var(--color-accent);
+}
+
+/* Gallery hover effects */
+.gallery-item:hover {
+  border-color: var(--color-primary);
+}
+
+/* Text selections */
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-dark-bg);
+}
+
+::-moz-selection {
+  background-color: var(--color-primary);
+  color: var(--color-dark-bg);
+}
