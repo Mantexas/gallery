@@ -1,0 +1,14 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Gallery Portfolio"
+theme = "gallery"
+
+[params]
+  description = "My gallery portfolio"
+  author = "Your Name"
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
